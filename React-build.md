@@ -17,7 +17,7 @@ yarn add clsx styled-components
 yarn add react-responsive aos react-toastify 
 
 ##  아코디언 / 모달,팝업 / 드롭다운 라이브러리
-yarn add @radix-ui/react-accordion @radix-ui/react-icons
+yarn add @radix-ui/react-dropdown-menu @radix-ui/react-icons
 
 ## 아이콘 라이브러리
 <!-- 일반 아이콘 -->

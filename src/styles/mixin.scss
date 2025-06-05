@@ -6,6 +6,11 @@
   gap: $gap;
 }
 
+@mixin layout($padding: null, $border-radius: null) {
+  padding: $padding;
+  border-radius: $border-radius;
+}
+
 @mixin font($size: null, $weight: null, $line-height: null, $color: null) {
   font-size: $size;
   font-weight: $weight;

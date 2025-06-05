@@ -34,17 +34,54 @@ header {
 
 
     }
+    
 
-    .menu{
-        padding: 0.5rem 1rem;
-        color: #666;
-        font-size: 1rem;
+    .header-nav{
+        @include flex(row, center, center, 0.5rem);
+
+        .menu{
+            position: relative;
+            @include flex(row, center, center, 0.5rem);
+            padding: 8px;
+            color: #666;
+            font-size: 1rem;
         font-weight: 600;
         text-decoration: none;
-        &:hover{
-            color: #000;
+
+        nav{
+            a{
+                @include flex(row, center, center, 0.5rem);
+                padding: 8px;
+                color: #666;
+                font-size: 1rem;
+                font-weight: 600;
+                text-decoration: none;
+                
+            }
+        }
+
+        
+
+        ul{
+            position: absolute;
+            @include flex(column, center, center);
+            top: 100%;
+            left: 0;
+            background-color: #fff;
+            padding: 0.5rem;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            width: 100%;
+            li{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 0.5rem;
+                width: 100%;
+            }
         }
     }
+}
 }
 footer {
     display: flex;
