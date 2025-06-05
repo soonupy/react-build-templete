@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  button {
+    all: unset;
+    pointer-events: auto;
+    cursor: pointer;
+  }
+  
+  input,
+  label,
+  summary {
+    pointer-events: auto;
+    cursor: pointer;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  ul,
+  ol {
+    list-style: none;
+  }
+  
+  img,
+  svg {
+    max-width: 100%;
+    vertical-align: middle;
+    border: none;
+  }
+  body, html {
+      font-family: /*"Roboto",*/ /*"Open Sans",*/ /*"Noto Sans KR",*/ "Pretendard","Montserrat", sans-serif;
+      line-height: 1;
+    height: 100dvh;
+    font-size: 100%;
+    overscroll-behavior-x: none;
+  }
