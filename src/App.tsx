@@ -7,6 +7,9 @@ import Menu4Page from "./pages/Menu4Page";
 import "./styles/reset.scss";
 import "./styles/layout.scss";
 import "./styles/pages.scss";
+import ProductInfo from "./components/ProductItems/ProductInfo";
+
+
 
 
 function App() {

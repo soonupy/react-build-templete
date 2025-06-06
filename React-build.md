@@ -25,6 +25,9 @@ yarn add lucide-react
 <!-- 브랜드 아이콘 -->
 yarn add react-icons
 
+## 샘플 이미지 라이브러리
+yarn add react-photo-gallery
+
 ## prettier 라이브러리
 yarn add -D prettier
 
