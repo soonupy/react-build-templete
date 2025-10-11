@@ -46,21 +46,7 @@ header {
             color: #666;
             font-size: 1rem;
         font-weight: 600;
-        text-decoration: none;
-
-        nav{
-            a{
-                @include flex(row, center, center, 0.5rem);
-                padding: 8px;
-                color: #666;
-                font-size: 1rem;
-                font-weight: 600;
-                text-decoration: none;
-                
-            }
-        }
-
-        
+        text-decoration: none;        
 
         ul{
             position: absolute;

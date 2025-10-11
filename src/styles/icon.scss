@@ -1,0 +1,22 @@
+[class^="ico"] {
+    width: var(--ico-size, 1.5rem); // 기본값 24px
+    border: var(--ico-border, none);
+    color: var(--ico-color, currentColor);
+    aspect-ratio: 1/1;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  
+    &.ico-sm {
+      --ico-size: 1rem;
+    }
+  
+    &.ico-md {
+      --ico-size: 1.5rem;
+    }
+  
+    &.ico-lg {
+      --ico-size: 2rem;
+    }
+  }
+  
