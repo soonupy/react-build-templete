@@ -4,7 +4,8 @@ import Menu1Page from "./pages/Menu1Page";
 import Menu2Page from "./pages/Menu2Page";
 import Menu3Page from "./pages/Menu3Page";
 import Menu4Page from "./pages/Menu4Page";
-import "./styles/index.scss";
+import "@styles/index.scss";
+
 
 
 

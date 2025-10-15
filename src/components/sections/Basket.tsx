@@ -1,4 +1,5 @@
 import {ShoppingCart} from 'lucide-react';
+import '@styles/icon.scss';
 
 const Basket = () => {
     return (
@@ -16,7 +17,7 @@ const Basket = () => {
                 boxSizing: 'border-box',
                 color: '#333'
             }}>
-            <ShoppingCart size={16}/>
+            <i className='icon ico-md'><ShoppingCart size={16}/></i>
             <p>담기</p>
         </button>
     );
